@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+:root {
+    /* main colors */
+    --pink: #e50065;
+    --blue: #49a0e8;
+    --yellow: #f7d000;
+    --gray: #808080;
+
+    /* mode colors */
+    --normal: #009fe9;
+    --hard: #ffc300;
+    --expert: #ff0084;
+
+    /* main colors */
+    --link-blue: #0066c0;
+}

@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------------------------------------------
+ common
+--------------------------------------------------------------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+    
+    /*記事外ボタン pink*/
+    .article_btn:after {
+        background-color: transparent ;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-arrow_box-p.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    /*フッター 各種設定*/
+    #footer a.btn[class*="option"]:before {
+        background-color: transparent ;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-option.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+    /*フッター ログアウト*/
+    #footer a[class*="logout"]:before {
+        background-color: transparent ;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-logout.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    /*フィルターボタン*/
+    a.btn-filter:after {
+        background-color: transparent ;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-filter.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    /*モーダル　右矢印 白*/
+    #modal.music div a.btn:after {
+        background-color: transparent ;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-arrow_box-w.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+    
+    /*フィルター　上矢印 白*/
+    .filter #modal-article-filter #radio-btn input[name="order"] + label:after {
+        background-color: transparent ;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-arrow_up.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    /*フィルター　下矢印 白*/
+    .filter #modal-article-filter #radio-btn input[name="order"] + label.down:after {
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-arrow_down.png');
+    }
+    
+    /*フィルター　チェックボックス*/
+    .filter #modal-article-filter input[type="checkbox"] + label {
+        background-image: url('/img/web/edge/checkbox_off.png');
+    }
+    .filter #modal-article-filter input[type="checkbox"]:checked + label {
+        background-image: url('/img/web/edge/checkbox_on.png');
+    }
+    /*フィルター　ラジオボタン*/
+    .filter #modal-article-filter input[type="radio"] + label {
+        background-image: url('/img/web/edge/radiobtn_off.png');
+    }
+    .filter #modal-article-filter input[type="radio"]:checked + label {
+        background-image: url('/img/web/edge/radiobtn_on.png');
+    }
+
+    
+    
+/* ------------------------------------------------------------------------------------------------------
+ TOP
+--------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------
+ INFORMATION
+------------------------------------------------------ */
+    #information div ul li:after {
+        background-color: transparent;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/btn-arrow_r-y.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+/* ------------------------------------------------------------------------------------------------------
+ TROPHY
+--------------------------------------------------------------------------------------------------------- */
+
+    #trophy div.article ul li a:after {
+        background-color: transparent;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/btn-arrow_r-g.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    /*   タブ切り替え   */
+    #trophy .article ul.tab li:last-child a span {
+        background-color: transparent;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-arrow_r_w-w.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #trophy .article ul.tab li.active:last-child a span {
+        background-color: transparent;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-arrow_r_w-b.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+/* ---------------------------------------------------
+  TROPHY datail
+------------------------------------------------------ */
+    #trophy div.article ul > li > a > div.rare{
+        background-color: transparent;
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
+    #trophy .radius div.trophy-details div.rare {
+        background-image: url('/img/web/edge/ic-star-0.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #trophy div.article ul li div.rare.star-00,
+    #trophy .radius div.trophy-details div.rare.star-00{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-0.png');
+    }
+    #trophy div.article ul li div.rare.star-01,
+    #trophy .radius div.trophy-details div.rare.star-01{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-1.png');
+    }
+    #trophy div.article ul li div.rare.star-02,
+    #trophy .radius div.trophy-details div.rare.star-02{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-2.png');
+    }
+    #trophy div.article ul li div.rare.star-03,
+    #trophy .radius div.trophy-details div.rare.star-03{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-3.png');
+    }
+    #trophy div.article ul li div.rare.star-04,
+    #trophy .radius div.trophy-details div.rare.star-04{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-4.png');
+    }
+
+/* ------------------------------------------------------------------------------------------------------
+ TITLE
+--------------------------------------------------------------------------------------------------------- */
+
+    #title article div.btn_area > a:after {
+        background-color: transparent ;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/ic-arrow_box-w.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+
+/* ------------------------------------------------------------------------------------------------------
+ aset
+--------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------
+ 開始音SE設定
+------------------------------------------------------ */
+
+    #setting div.article ul li a:after {
+        background-color: transparent;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/btn-arrow_r-g.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    #setting div.article ul li a:before {
+        background-color: transparent;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/btn-se_play.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #setting div.article ul li a.se-active:before {
+        background-color: transparent;
+        mask-image: none;
+        -webkit-mask-image: none;
+        background-image: url('/img/web/edge/btn-se_stop.png');
+    }
+
+
+    #setting div.article ul > li > a > div.rare{
+        background-color: transparent;
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
+    #setting .radius div.trophy-details div.rare {
+        background-image: url('/img/web/edge/ic-star-0.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #setting div.article ul li div.rare.star-00,
+    #setting .radius div.trophy-details div.rare.star-00{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-0.png');
+    }
+    #setting div.article ul li div.rare.star-01,
+    #setting .radius div.trophy-details div.rare.star-01{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-1.png');
+    }
+    #setting div.article ul li div.rare.star-02,
+    #setting .radius div.trophy-details div.rare.star-02{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-2.png');
+    }
+    #setting div.article ul li div.rare.star-03,
+    #setting .radius div.trophy-details div.rare.star-03{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-3.png');
+    }
+    #setting div.article ul li div.rare.star-04,
+    #setting .radius div.trophy-details div.rare.star-04{
+        background: transparent;
+        background-image: url('/img/web/edge/ic-star-4.png');
+    }
+    
+    
+}

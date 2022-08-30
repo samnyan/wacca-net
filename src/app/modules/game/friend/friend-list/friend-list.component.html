@@ -1,0 +1,103 @@
+<h2>フレンドリスト</h2>
+<ul class="friend__friend-list-btn"><a routerLink="/web/friend/list" class="friend-list-link">
+    <li class="friend-list-btn__list  active ">フレンドリスト</li>
+</a> <a routerLink="/web/friend/visibility" class="friend-list-link">
+    <li class="friend-list-btn__conf ">公開設定</li>
+</a></ul>
+<ul class="friend__friend-list-status">
+    <li>フレンド: <span id="friend-count">3</span>/100</li>
+    <li>お気に入り: <span id="favorite-count">2</span>/10</li>
+    <li>スコア表示: <span id="score-count">2</span>/3</li>
+</ul>
+<div class="friend__filter-btn filter-btn"><a class="btn-filter" data-izimodal-open="#modal_filter_friend_list">フィルタ</a>
+    <input type="hidden" id="filter-genre" name="filter-genre" value="000"> <input type="hidden" id="filter-order"
+                                                                                   name="filter-order" value="0"> <input
+            type="hidden" id="filter-sort" name="filter-sort" value="0"></div>
+
+<div class="grid muuri" style="height: 507px;">
+    <div class="friend__playerdata item filter-favorite filter-score filter-official muuri-item muuri-item-shown"
+         data-sequence_number="1"
+         style="left: 0px; top: 0px; transform: translateX(0px) translateY(0px); display: block;">
+        <div style="opacity: 1; transform: scale(1);">
+            <div class="user-info form-player" routerLink="/web/friend/player">
+                <div class="user-info__icon">
+                    <div class="user-info__icon__official"><img src="/assets/img/web/common/official.png" alt="official"
+                                                                class=""></div>
+                    <div class="symbol__color__base"><img src="/img/symbol_color/303001.png" alt="symbol_color"
+                                                          class="">
+                        <div class="icon__image"><img src="/img/icon/102069.png" alt="icon" class=""></div>
+                    </div>
+                </div>
+                <div class="user-info__detail">
+                    <div class="user-info__detail__wrap">
+                        <div class="user-info__detail__lv"><span>Lv.114</span></div>
+                        <div class="user-info__detail__name">USER</div>
+                    </div>
+                    <div class="user-info__detail__title">WACCA Lily ステージXクリア！</div>
+                    <div class="rating__wrap">
+                        <div class="rating__img"><img src="/assets/img/web/rating/rate_003.png" alt="rating_icon" class="">
+                            <div class="rating__data">1709</div>
+                        </div>
+                    </div>
+                    <div class="user-info__detail__btn-wrap"><a class="user-info__detail__fv-cancel"
+                                                                >お気に入り解除</a> <a
+                            class="user-info__detail__score-hidden">スコア表示解除</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="friend__playerdata item muuri-item muuri-item-shown" data-sequence_number="2"
+         style="left: 0px; top: 0px; transform: translateX(0px) translateY(169px); display: block;">
+        <div style="opacity: 1; transform: scale(1);">
+            <div class="user-info form-player" routerLink="/web/friend/player">
+                <div class="user-info__icon">
+                    <div class="symbol__color__base"><img src="/img/symbol_color/303001.png" alt="symbol_color"
+                                                          class="">
+                        <div class="icon__image"><img src="/img/icon/102028.png" alt="icon" class=""></div>
+                    </div>
+                </div>
+                <div class="user-info__detail">
+                    <div class="user-info__detail__wrap">
+                        <div class="user-info__detail__lv"><span>Lv.-</span></div>
+                        <div class="user-info__detail__name">USER</div>
+                    </div>
+                    <div class="user-info__detail__title">WACCA Lily 紺レート達成！</div>
+                    <div class="rating__wrap">
+                        <div class="rating__img"><img src="/assets/img/web/rating/rate_008.png" alt="rating_icon" class="">
+                            <div class="rating__data">-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="friend__playerdata item filter-favorite filter-score muuri-item muuri-item-shown"
+         data-sequence_number="3"
+         style="left: 0px; top: 0px; transform: translateX(0px) translateY(338px); display: block;">
+        <div style="opacity: 1; transform: scale(1);">
+            <div class="user-info form-player" routerLink="/web/friend/player">
+                <div class="user-info__icon">
+                    <div class="symbol__color__base"><img src="/img/symbol_color/303001.png" alt="symbol_color"
+                                                          class="">
+                        <div class="icon__image"><img src="/img/icon/102001.png" alt="icon" class=""></div>
+                    </div>
+                </div>
+                <div class="user-info__detail">
+                    <div class="user-info__detail__wrap">
+                        <div class="user-info__detail__lv"><span>Lv.</span></div>
+                        <div class="user-info__detail__name"></div>
+                    </div>
+                    <div class="user-info__detail__title">ゲスト</div>
+                    <div class="rating__wrap">
+                        <div class="rating__img"><img src="/assets/img/web/rating/rate_008.png" alt="rating_icon" class="">
+                            <div class="rating__data">211</div>
+                        </div>
+                    </div>
+                    <div class="user-info__detail__btn-wrap"><a class="user-info__detail__fv-cancel"
+                                                                >お気に入り解除</a> <a
+                            class="user-info__detail__score-hidden">スコア表示解除</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
