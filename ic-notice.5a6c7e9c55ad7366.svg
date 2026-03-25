@@ -1,0 +1,9 @@
+<svg version="1.1" class="ic-notice" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="12px" viewBox="0 0 12 12">
+<style type="text/css">
+	.ic-notice_p{fill:#E50065;}
+	.ic-notice_w{fill:#FFFFFF;}
+</style>
+<circle class="ic-notice_p" cx="6" cy="6" r="6"/>
+<path class="ic-notice_w" d="M6.341,7.46l-1.55-0.34l0.74-5.38l2.552,0.555L6.341,7.46z M5.234,8.08C4.675,7.959,4.123,8.314,4.001,8.872
+	c-0.122,0.559,0.233,1.111,0.792,1.233c0.559,0.121,1.111-0.233,1.233-0.792C6.148,8.755,5.793,8.202,5.234,8.08z"/>
+</svg>

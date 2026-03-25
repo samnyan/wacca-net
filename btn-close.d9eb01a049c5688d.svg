@@ -1,0 +1,8 @@
+<svg version="1.1" id="btn-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 0 40 40">
+<style type="text/css">
+	.btn-close-txt{fill:#FFFFFF;}
+</style>
+<circle cx="20" cy="20" r="20"/>
+<polygon class="btn-close-txt" points="31.009,12.135 27.401,8.674 20,16.389 12.6,8.674 8.991,12.135 16.536,20 8.991,27.865 12.6,31.326 
+	20,23.611 27.401,31.326 31.009,27.865 23.464,20 "/>
+</svg>
